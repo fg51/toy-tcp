@@ -10,7 +10,7 @@ publish = false
 [dependencies]
 anyhow = "1"
 clap = { version = "4", features = ["derive"] }
-pnet = "0.31"
+pnet = { version = "0.31", features = ["std"] }
 rand = "0.8"
 thiserror = "1"
 tracing = "0.1"
